@@ -1,0 +1,306 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/********************************************
+----STRICT home page css code start here---
+*********************************************/
+
+/********************************************
+----header section css code start here---
+*********************************************/
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #f6f9f9;
+}
+.header-section .logo{
+	width: 100%;
+}
+/********************************************
+----header section css code end here---
+*********************************************/
+
+/********************************************
+----banner section css code start here---
+*********************************************/
+.banner-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.banner-section .banner-details{
+	width: 100%;
+	text-align: center;
+}
+.banner-section .banner-details h1{
+	font-size: 100px;
+	font-weight: 600;
+	margin-top: 80px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.banner-section .banner-details .straight-line{
+	height: 2px;
+	width: 48%;
+	background: #15a4fa;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+.banner-section .banner-details p{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 50px;
+}
+.banner-section .banner-details .btn{
+	padding: 10px 30px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	color: #fff;
+	transition: 1s;
+	margin-bottom: 200px;
+}
+.banner-section .banner-details .btn:hover{
+	background: #15a4fa;
+}
+/********************************************
+----banner section css code end here---
+*********************************************/
+
+/********************************************
+----details section css code start here---
+*********************************************/
+.deatails-section{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+}
+.deatails-section .simple{
+	width: 100%;
+}
+.deatails-section .simple h2{
+	font-size: 50px;
+	font-weight: 500;
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+.deatails-section .simple p{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #999999;
+	margin-bottom: 150px;
+}
+.deatails-section .icons{
+	width: 100%;
+}
+.deatails-section .icons img{
+	margin-bottom: 30px;
+}
+.deatails-section .icons h3{
+	font-size: 25px;
+	font-weight: 500;
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+.deatails-section .icons p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #999999;
+}
+/********************************************
+----details section css code end here---
+*********************************************/
+
+/********************************************
+----portfolio section css code start here---
+*********************************************/
+.portfolio-section{
+	width: 100%;
+	text-align: center;
+	background: #f6f9f9;
+	padding: 80px 0px;
+}
+.portfolio-section .portfolio-title{
+	width: 100%;
+}
+.portfolio-section .portfolio-title h2{
+	font-size: 40px;
+	font-weight: 500;
+	color: #2d3950;
+	margin-top: 0px;
+}
+.portfolio-section .portfolio-title p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #999999;
+	margin-bottom: 50px;
+}
+.portfolio-inner{
+	margin-top: 20px;
+	width: 100%;
+	position: relative;
+}
+.port-hover{
+	position: absolute;
+	width: 103%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	background: rgb(23,152,231, .6);
+	display: none;
+}
+.portfolio-inner:hover .port-hover{
+	display: block;
+	transition: 1s;
+}
+.port-hover ul{
+	position: absolute;
+    top: 42%;
+    left: 38%;
+}
+.port-hover ul li{
+	display: inline-block;
+	list-style: none;
+}
+.mar{
+	margin-bottom: 30px;
+}
+/********************************************
+----portfolio section css code end here---
+*********************************************/
+
+/********************************************
+----contact section css code start here---
+*********************************************/
+.contact-section{
+	width: 100%;
+	background: url("../images/BG.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+	text-align: center;
+}
+.contact-section .contact-title{
+	width: 100%;
+	margin-top: -30px;
+}
+.contact-section .contact-title h3{
+	font-size: 38px;
+	font-weight: 400;
+	color: #fff;
+}
+.contact-section .contact-title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #999999;
+	margin-bottom: 40px;
+}
+.contact-section .contact-form{
+	width: 50%;
+	margin-left: 270px;
+}
+.contact-section .contact-form .form-group{
+	width: 100%;
+	margin: 25px 0px;
+
+}
+.contact-section .contact-form .form-group .form-control{
+	padding: 30px 10px;
+	background: transparent;
+	color: #999999;
+	box-shadow: none;
+}
+.contact-section .contact-form .form-group textarea{
+	height: 180px;
+}
+.contact-section .form-cbox{
+	margin-left: 160px;
+	color: #fff;
+	font-size: 16px;
+}
+.contact-section .form-btn .btn-info{
+	margin-right: 155px;
+	padding: 10px 45px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	color: #fff;
+	transition: 1s;
+}
+.contact-section .form-btn .btn-info:hover{
+	background: #15a4fa;
+	text-decoration: none;
+}
+/********************************************
+----contact section css code end here---
+*********************************************/
+
+/********************************************
+----footer section css code start here---
+*********************************************/
+.footer-section{
+	width: 100%;
+	padding: 20px 0px;
+}
+.footer-section .footer-title{
+	width: 100%;
+	margin-top: 15px;
+}
+.footer-section .footer-title h5{
+	font-size: 16px;
+	font-weight: 400;
+	color: #999999;
+}
+.footer-section .footer-inner{
+	width: 100%;
+	margin-top: 0px;
+	text-align: right;
+}
+.footer-section .footer-inner ul{
+	display: block;
+	margin-bottom: 0px;
+}
+.footer-section .footer-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-section .footer-inner ul li a{
+
+}
+.footer-section .footer-inner ul li a .fa{
+	margin-right: 10px;
+	background: #15a4fa;
+	color: #fff;
+	padding: 9px;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/********************************************
+----footer section css code end here---
+*********************************************/
+
+
+/********************************************
+----STRICT home page css code end here---
+*********************************************/
